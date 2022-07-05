@@ -27,7 +27,6 @@ export default function RecipesScreen () {
   const [loading, setLoading] = useState(false);
 
   const apiId = '149c6278'
-  const apiKey = `5bb4fe0b1ccda4d2c2de1a72766348ef`
   const apiUrl = `https://api.edamam.com/search?q=${searchQuery}&app_id=${apiId}&app_key=${apiKey}&from=0&to=${numberOfRecipes.toString()}&calories=591-722&health=alcohol-free`;
 
   async function apiCall() {

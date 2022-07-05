@@ -4,7 +4,6 @@ import { auth, firebase } from '../config';
 import Modal from 'react-native-modal';
 import DatePicker from 'react-native-datepicker';
 
-const API_KEY = 'AIzaSyA7ziqECErmthE7uUa90bmTTL1Q82_2MlI';
 const API_URL = `https://vision.googleapis.com/v1/images:annotate?key=${API_KEY}`;
 const width = Dimensions.get("screen").width
 const primaryColor = '#00bfff'

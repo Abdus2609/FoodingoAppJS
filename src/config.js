@@ -4,7 +4,6 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/storage';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD6Q1gdGPwzuA-5yRlsX8MDAlTG_pQqyrU",
   authDomain: "foodingo-39a75.firebaseapp.com",
   projectId: "foodingo-39a75",
   storageBucket: "foodingo-39a75.appspot.com",
